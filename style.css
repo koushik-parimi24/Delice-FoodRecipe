@@ -1,0 +1,163 @@
+body {
+  background:rgba(69, 38, 13, 0.762);
+    font-family: "Titillium Web", sans-serif;
+
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0;
+    margin-top: 270px;
+  }
+  
+  input[type="text"] {
+    background-color: #f4b474;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 12px;
+    width: 200px;
+    margin-top: 10px;
+
+  }
+  .btn {
+    margin-left: 30px;
+    cursor: pointer;
+    padding: 0.3rem 0.3rem;
+    border-radius: 8px;
+    background-color: #b1acac;
+    
+
+
+
+  }
+  button[type="submit"] {
+    background-color: #f3df978d;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 12px 20px;
+    transition: background-color 0.2s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ee780a;
+  }
+  
+  #results {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 40px 0;
+  }
+  
+  #results > div {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  #results img {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+  }
+  
+  #results h3 {
+    color: #333;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  #results ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #results li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  #results a {
+    background-color: #007bff;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
+  }
+  
+
+
+  #results a:hover {
+    background-color: #0069d9;
+  }
+  #mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+    background-color: #b1acac;
+    width: fit-content;
+
+    
+}
+#mainNavbar .nav-link{
+color:  #f85300;
+font-size: 1.3rem;
+position: relative;
+}
+#mainNavbar .nav-link:hover{
+ color:white;
+ font-size: 1.3rem;
+ font-weight: 500;
+ text-decoration: underline;
+ top: -2px;
+}
+#mainNavbar .navbar-brand{
+    color: rgba(255, 77, 0, 0.69);
+    font-size: 1.8rem;
+    font-weight:900;
+
+}
+#headingGroup span{
+color:  rgb(255, 64, 0);
+
+}
+#headingGroup h1{
+    font-weight: 100;
+    font-size: 4rem;
+}
+.navbar{
+    background: none;
+    transition: background 500ms;
+border-radius: 10px;
+margin-top: 10px;
+max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
