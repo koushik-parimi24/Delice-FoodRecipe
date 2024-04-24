@@ -136,10 +136,12 @@ border-radius: none;
     padding: 12px 20px;
     text-align: center;
     text-decoration: none;
-    transition: background-color 0.2s;
+    transition: transform .6s ease-out;
   }
   #results a:hover {
-    background-color: #FFF5E0;
+    background-color: #bfee89;
+   box-shadow: 5px 5px 100px;
+   transform: translate(0, -3px)  ; 
   }
 #mainNavbar{
     font-size: 1.5rem;
